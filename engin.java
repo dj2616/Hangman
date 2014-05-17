@@ -18,7 +18,7 @@ public static Map<String, String> getWords(int category) {
 	Map dictionary = new HashMap();
 	String link ="";
 	switch(category){
-	case 1: link="cars.txt";
+	case 1: link="filename.txt";
 	
 	}
 	File file = new File(link);
