@@ -11,8 +11,7 @@ public class dict {
 public static void main(String[] args) {
 	int category = 1;
 	Map words = getWords(category);
-    
-    System.out.println("Total words: " + words.size());
+    	System.out.println("Total words: " + words.size());
  }
 
 public static Map<String, String> getWords(int category) {
